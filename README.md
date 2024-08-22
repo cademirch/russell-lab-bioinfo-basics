@@ -14,7 +14,7 @@ wRi: `GCF_000022285.1`
 
 Sequencing reads can be found on the Hummingbird and Phoenix clusters. These files should be fully accessible by anyone, so no need to copy them to your working directory.
 
-There are 5 samples:
+There are 9 samples:
 1. Dsimulans_wRi-Riv84
 2. WT-DsimwRi-line5A
 3. WT-DsimwRi-line5B
