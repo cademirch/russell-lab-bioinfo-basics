@@ -9,6 +9,8 @@ We have sequenced some _Drosophila simulans_ flies we believe are infected with 
 
 ## Data availability
 Reference genomes are available from NCBI RefSeq.
+Drosophila simulans: `GCF_016746395.2`
+wRi: `GCF_000022285.1`
 
 Sequencing reads can be found on the Hummingbird and Phoenix clusters. These files should be fully accessible by anyone, so no need to copy them to your working directory.
 
@@ -32,6 +34,12 @@ What SLURM partition should I use?
 
 Hummingbird: `128x24`
 Phoenix: `short` or `medium`
+
+Add this to SLURM script to have access to your conda env:
+```
+source ~/.bashrc
+conda activate <your conda env name> 
+```
 
 I'm stuck or not sure where to start?
 - Narrow down what you are stuck or don't know
